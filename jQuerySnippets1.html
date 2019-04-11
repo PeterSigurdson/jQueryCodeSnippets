@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <script
+        src="https://code.jquery.com/jquery-3.4.0.js"
+        integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+        crossorigin="anonymous"></script>
+<style>
+p {
+  text-align: center;
+  color: blueviolet;
+} 
+</style>
+</head>
+<body>
+    <script>
+        $(document).ready(function() {
+            $("div.intro").css("background-color", "yellow");
+        });
+    </script>
+<div class="intro">
+<p>Every paragraph will be affected by the style.</p>
+<p id="para1">Me too!</p>
+<p>And me!</p>
+</div>
+
+
+</body>
+</html>
