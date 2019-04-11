@@ -6,4 +6,4 @@ Line numbers of the lines which contain both the words: sea and the word fare:  
 
 Line numbers of the lines which contain both the words: fare without the word war:   334,887
 
-Average number of letters per word returned as a float:   4.6
+Average number of letters per word returned as a float:   4.654
